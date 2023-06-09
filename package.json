@@ -12,9 +12,13 @@
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^4.18.2"
+    "dotenv": "^16.1.4",
+    "express": "^4.18.2",
+    "mongodb": "4.1",
+    "mongoose": "^7.2.2"
   },
   "devDependencies": {
     "nodemon": "^2.0.22"
-  }
+  },
+  "proxy": "http://localhost:3001"
 }
